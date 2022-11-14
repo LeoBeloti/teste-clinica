@@ -19,4 +19,9 @@ class MedicoController extends Controller
             "message" => "medico record created"
         ], 201);
     }
+
+    public function edit(Request $request, $id)
+    {
+        
+    }
 }
